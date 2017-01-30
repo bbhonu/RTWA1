@@ -1,0 +1,188 @@
+/* line 4, ../scss/_base.scss */
+*{
+box-sizing: border-box;
+}
+
+html, body {
+	margin: 0;
+	padding: 0;
+	height: 100%;
+}
+
+html{
+	font-size: 2vw;
+}
+
+@font-face {
+  font-family: "eczar-bold";
+  src: url(../fonts/eczar-bold.ttf);
+}
+
+@font-face {
+  font-family: "eczar-semibold";
+  src: url(../fonts/eczar-semibold.ttf);
+}
+
+
+body {
+  background-image: url('../img/gradient3.png');
+  background-color: black;
+     background-attachment:fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: "eczar-semibold";
+    color: white;
+    cursor: url('img/cursor.png');
+
+
+
+}
+
+.container {
+
+	  display: flex;
+	  flex-direction: column;
+
+}
+
+img {
+	max-width: 100%;
+	max-height: 100%;
+	padding-bottom: 60px;
+	position: relative;
+}
+
+section {
+	// text-align: center;
+	width: 100%;
+		  // max-width: 960px;
+ padding: 10vh 13vw;
+height: 100vh;
+padding-bottom: 10vh;
+
+}
+
+h1, h2 {
+	margin: 0px;
+	font-size: 3em;
+	text-align: right;
+	margin-bottom: 10px;
+}
+
+.linea {
+	height: 1px;
+	background-color: white;
+	width: 84%;
+	z-index: 1; 
+	margin-top: -20px;
+}
+.linea#linea2 {
+	margin-top: 5px;
+}
+
+.lineb {
+	height: 1px;
+	background-color: white;
+	z-index: 1; 
+	margin-top: -40px;
+		
+
+}
+.lineb#lineb2 {
+	margin-top: 5px;
+}
+
+
+
+
+
+#one {
+	position: fixed;
+	z-index: 0;
+
+	// p {
+	// 	position: absolute;
+	// 	top: 400px;
+	// 	left: 0px;
+	// 	padding-left: 200px;
+	// 	padding-top: 0px;
+	// 	z-index: 1;
+	// 	color: white;
+	// 	background-color: rgba(0,0,0,.4);
+	// 	width: 100vw;
+	// 	font-size: .4em;
+	// 	-webkit-box-shadow: 0px 1px 27px 7px rgba(0, 0, 0, 0.45);
+	// 	-moz-box-shadow: 0px 1px 27px 7px rgba(0, 0, 0, 0.45);
+	// 	box-shadow: 0px 1px 27px 7px rgba(0, 0, 0, 0.45);
+
+
+	// }
+
+}
+
+#two {
+	position: relative;
+	top:100vh;
+	background-image: url('../img/gradient1.png');
+	z-index: 2;
+
+	img {
+
+		// margin-top: 10vh;
+			left: 15%;
+			margin-right: 20vw;
+			margin-top: 5vh;
+			// margin-bottom: 
+
+
+
+	}
+
+	border-top: solid rgba(155,155,155,1) 2px;
+
+}
+
+#three {
+	position: relative;
+	top: 100vh;
+	background-image: url('../img/gradient4.png');
+				border-top: solid rgba(155,155,155,1) 2px;
+
+	z-index: 3;
+
+		img {
+
+		margin-top: 13vh;
+
+
+
+
+	}
+
+
+	h2 {
+		// font-size: 2.5em;
+		line-height: 1.2em;
+		text-align: left;
+		margin-left: -10vw;
+
+
+
+
+	}
+
+}
+
+// #image2 {
+//     -webkit-filter: drop-shadow(-3px -1px 13px #e6e6e6);
+// }
+
+.click {
+	cursor: url("../img/cursor.png"), pointer;
+	 -moz-user-select: none; /* Firefox */
+      -ms-user-select: none; /* Internet Explorer */
+   -khtml-user-select: none; /* KHTML browsers (e.g. Konqueror) */
+  -webkit-user-select: none; /* Chrome, Safari, and Opera */
+  -webkit-touch-callout: none;
+
+}

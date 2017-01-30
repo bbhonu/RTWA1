@@ -1,0 +1,148 @@
+/* line 4, ../scss/_base.scss */
+/* line 2, ../scss/_base.scss */
+* {
+  box-sizing: border-box;
+}
+
+/* line 6, ../scss/_base.scss */
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+/* line 12, ../scss/_base.scss */
+html {
+  font-size: 2vw;
+}
+
+@font-face {
+  font-family: "eczar-bold";
+  src: url(../fonts/eczar-bold.ttf);
+}
+@font-face {
+  font-family: "eczar-semibold";
+  src: url(../fonts/eczar-semibold.ttf);
+}
+/* line 27, ../scss/_base.scss */
+body {
+  background-image: url("../img/gradient3.png");
+  background-color: black;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: "eczar-semibold";
+  color: white;
+  cursor: url("img/cursor.png");
+}
+
+/* line 41, ../scss/_base.scss */
+.container {
+  display: flex;
+  flex-direction: column;
+}
+
+/* line 48, ../scss/_base.scss */
+img {
+  max-width: 100%;
+  max-height: 100%;
+  padding-bottom: 60px;
+  position: relative;
+}
+
+/* line 55, ../scss/_base.scss */
+section {
+  width: 100%;
+  padding: 10vh 13vw;
+  height: 100vh;
+  padding-bottom: 10vh;
+}
+
+/* line 65, ../scss/_base.scss */
+h1, h2 {
+  margin: 0px;
+  font-size: 3em;
+  text-align: right;
+  margin-bottom: 10px;
+}
+
+/* line 72, ../scss/_base.scss */
+.linea {
+  height: 1px;
+  background-color: white;
+  width: 84%;
+  z-index: 1;
+  margin-top: -20px;
+}
+
+/* line 79, ../scss/_base.scss */
+.linea#linea2 {
+  margin-top: 5px;
+}
+
+/* line 83, ../scss/_base.scss */
+.lineb {
+  height: 1px;
+  background-color: white;
+  z-index: 1;
+  margin-top: -40px;
+}
+
+/* line 91, ../scss/_base.scss */
+.lineb#lineb2 {
+  margin-top: 5px;
+}
+
+/* line 99, ../scss/_base.scss */
+#one {
+  position: fixed;
+  z-index: 0;
+}
+
+/* line 123, ../scss/_base.scss */
+#two {
+  position: relative;
+  top: 100vh;
+  background-image: url("../img/gradient1.png");
+  z-index: 2;
+  border-top: solid #9b9b9b 2px;
+}
+/* line 129, ../scss/_base.scss */
+#two img {
+  left: 15%;
+  margin-right: 20vw;
+  margin-top: 5vh;
+}
+
+/* line 145, ../scss/_base.scss */
+#three {
+  position: relative;
+  top: 100vh;
+  background-image: url("../img/gradient4.png");
+  border-top: solid #9b9b9b 2px;
+  z-index: 3;
+}
+/* line 153, ../scss/_base.scss */
+#three img {
+  margin-top: 13vh;
+}
+/* line 163, ../scss/_base.scss */
+#three h2 {
+  line-height: 1.2em;
+  text-align: left;
+  margin-left: -10vw;
+}
+
+/* line 180, ../scss/_base.scss */
+.click {
+  cursor: url("../img/cursor.png"), pointer;
+  -moz-user-select: none;
+  /* Firefox */
+  -ms-user-select: none;
+  /* Internet Explorer */
+  -khtml-user-select: none;
+  /* KHTML browsers (e.g. Konqueror) */
+  -webkit-user-select: none;
+  /* Chrome, Safari, and Opera */
+  -webkit-touch-callout: none;
+}
